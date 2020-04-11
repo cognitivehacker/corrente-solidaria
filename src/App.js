@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
-import { GlobalStyles } from '../common/GlobalStyles'
+import { GlobalStyles } from "./common/globalStyles"
 import { ThemeProvider } from 'styled-components'
 
-import theme from '../common/theme'
+import theme from './common/theme'
 
 const App = () => {
   return (

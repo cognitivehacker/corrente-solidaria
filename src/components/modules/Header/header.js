@@ -6,12 +6,16 @@ import Box from "../../elements/Box";
 import Button from "../../elements/Button";
 import Text from "../../elements/Text";
 
+const HeaderContainer = styled.header`
+  position: sticky;
+  top: 0;
+`;
 const Container = styled(Flex)`
   background-color: ${theme("colors.backgrounds.primary.gray")};
 `;
 
 const Header = () => (
-  <header>
+  <HeaderContainer>
     <Container justifyContent="space-between" alignItems="center" p={2}>
       <Box>
         <Text fontWeight="900">Projeto Solitário</Text>
@@ -20,7 +24,7 @@ const Header = () => (
         <Button borderRadios>Teste</Button>
       </Box>
     </Container>
-  </header>
+  </HeaderContainer>
 );
 
 export default Header;
