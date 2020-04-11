@@ -9,7 +9,7 @@ const Img = styled.img`
 const CollectionImage = ({ img, title, children }) => (
   <Box p={2}>
     <Img src={img} />
-    <Text fontWeight="900" textAlign="center">
+    <Text fontWeight="normal" fontSize="18px" textAlign="center">
       {title}
     </Text>
     <Text textAlign="center" color="#888888">
