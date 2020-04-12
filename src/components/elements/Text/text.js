@@ -7,6 +7,9 @@ const Container = styled.p`
   ${space}
   ${color}
   ${flex}
+  ::selection{
+    background-color: #6dc77a;
+  }
 `;
 
 const Text = ({ children, ...props }) => (
